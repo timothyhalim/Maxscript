@@ -5,10 +5,19 @@
 :Date:		17 Jan 2016
 :Update:	24 Des 2016
 ********************************************************/
+
+/*
+	Notes:
+	Feel free to edit the script.
+	Please don't distribute or commercialize it without my permission.
+	Please notifyme and put my name on credits if you use part of this script.
+*/
+
 try (
 	cui.UnRegisterDialogBar ToggleMaterial 
 	destroyDialog ToggleMaterial
 ) catch ()
+
 Rollout ToggleMaterial "Switch" width:95 height:95
 (
 	Button Texture_On "On" pos:[5,5] width:40 height:40 tooltip:"Show Material."
@@ -77,6 +86,7 @@ Rollout ToggleMaterial "Switch" width:95 height:95
 	on Texture_Off pressed do fn_switchtexture Off
 )
 CreateDialog ToggleMaterial
+
 /* Add this to automatically dock the dialog
 cui.RegisterDialogBar ToggleMaterial minsize:[105,105] minsize:[105,105] style:#(#cui_dock_all, #cui_floatable, #cui_handles  )
 cui.DockDialogBar ToggleMaterial #cui_dock_bottom
