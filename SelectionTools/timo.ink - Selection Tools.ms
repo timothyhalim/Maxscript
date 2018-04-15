@@ -1,10 +1,16 @@
 /********************************************************
 :Author:	Timothy Halim
-:Site:	http://timo.ink
-:Email:	mail@timo.ink
+:Site:		http://timo.ink
+:Email:		mail@timo.ink
 :Created:	12 Des 2015
 :Update:	23 May 2016
 ********************************************************/
+/*
+	Notes:
+	Feel free to edit the script.
+	Please don't distribute or commercialize it without my permission.
+	Please notifyme and put my name on credits if you use part of this script.
+*/
 
 try destroydialog sel_tool catch ()
 rollout sel_tool ".timo Selection Tool v1.2" width:200 height:455
