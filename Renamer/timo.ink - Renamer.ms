@@ -1,10 +1,10 @@
 /********************************************************
 :Author:	Timothy Halim
-:Site:	http://timo.ink
-:Email:	mail@timo.ink
-:Date:	15 Feb 2016
+:Site:		http://timo.ink
+:Email:		mail@timo.ink
+:Date:		15 Feb 2016
 :Update:	19 May 2016
-:notes:	Original idea by Rob Swinburn http://www.scriptspot.com/3ds-max/scripts/object-rename-0
+:notes:		Original idea by Rob Swinburn http://www.scriptspot.com/3ds-max/scripts/object-rename-0
 ********************************************************/
 /*
 	Notes:
