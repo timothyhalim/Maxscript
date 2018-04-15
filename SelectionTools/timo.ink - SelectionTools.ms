@@ -7,9 +7,9 @@
 ********************************************************/
 /*
 	Notes:
-	Feel free to edit the script.
+	Feel free to edit the script for personal use.
 	Please don't distribute or commercialize it without my permission.
-	Please notifyme and put my name on credits if you use part of this script.
+	Please notify me and put my name on credits if you use part of this script.
 */
 
 try destroydialog sel_tool catch ()
